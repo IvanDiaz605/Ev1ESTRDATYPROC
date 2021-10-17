@@ -47,7 +47,8 @@ while contador:
                 print(f"El precio de venta es:{ Ventas[folio_a_buscar].precioventa}")
             else:
                 print(f"El folio a buscar: {folio_a_buscar}, No esta registrado")             
-    
+                print("-"*10)
+                print("Consulta de venta")   
     elif opcion >= 3:
         print()
         print("El programa a sido finalizado")
